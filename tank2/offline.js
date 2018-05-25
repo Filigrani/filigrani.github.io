@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527225437,
+	"version": 1527262052,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -23,7 +23,7 @@
 		"images/wavebg-sheet0.png",
 		"images/boom-sheet0.png",
 		"images/boom-sheet1.png",
-		"images/listener-sheet0.png",
+		"images/revivezone-sheet0.png",
 		"images/skillbutton-sheet0.png",
 		"images/shopicon-sheet0.png",
 		"images/shopicon-sheet1.png",
@@ -33,6 +33,8 @@
 		"images/house-sheet0.png",
 		"images/house-sheet1.png",
 		"images/house-sheet2.png",
+		"images/revivebg-sheet0.png",
+		"images/revivebar-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
