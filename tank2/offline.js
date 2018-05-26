@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527356947,
+	"version": 1527359720,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -41,6 +41,7 @@
 		"images/mine-sheet0.png",
 		"images/mine-sheet1.png",
 		"images/item_slot-sheet0.png",
+		"images/spawner-sheet0.png",
 		"images/color-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
