@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527338604,
+	"version": 1527356947,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -18,6 +18,7 @@
 		"images/body-sheet0.png",
 		"images/body-sheet1.png",
 		"images/turret-sheet0.png",
+		"images/turret-sheet1.png",
 		"images/enemy_bullet-sheet0.png",
 		"images/player_bullet-sheet0.png",
 		"images/bg.png",
@@ -40,6 +41,7 @@
 		"images/mine-sheet0.png",
 		"images/mine-sheet1.png",
 		"images/item_slot-sheet0.png",
+		"images/color-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
