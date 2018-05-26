@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527262052,
+	"version": 1527338604,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -16,6 +16,7 @@
 		"images/hpbar-sheet0.png",
 		"images/hpbg-sheet0.png",
 		"images/body-sheet0.png",
+		"images/body-sheet1.png",
 		"images/turret-sheet0.png",
 		"images/enemy_bullet-sheet0.png",
 		"images/player_bullet-sheet0.png",
@@ -27,6 +28,7 @@
 		"images/skillbutton-sheet0.png",
 		"images/shopicon-sheet0.png",
 		"images/shopicon-sheet1.png",
+		"images/shopicon-sheet2.png",
 		"images/hole-sheet0.png",
 		"images/flora-sheet0.png",
 		"images/flora-sheet1.png",
@@ -35,6 +37,9 @@
 		"images/house-sheet2.png",
 		"images/revivebg-sheet0.png",
 		"images/revivebar-sheet0.png",
+		"images/mine-sheet0.png",
+		"images/mine-sheet1.png",
+		"images/item_slot-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
