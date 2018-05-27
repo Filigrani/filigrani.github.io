@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1527359720
+#1527429967
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -27,8 +27,6 @@ images/boom-sheet1.png
 images/revivezone-sheet0.png
 images/skillbutton-sheet0.png
 images/shopicon-sheet0.png
-images/shopicon-sheet1.png
-images/shopicon-sheet2.png
 images/hole-sheet0.png
 images/flora-sheet0.png
 images/flora-sheet1.png
@@ -40,8 +38,16 @@ images/revivebar-sheet0.png
 images/mine-sheet0.png
 images/mine-sheet1.png
 images/item_slot-sheet0.png
+images/item_slot-sheet1.png
+images/item_slot-sheet2.png
 images/spawner-sheet0.png
 images/color-sheet0.png
+images/tracereflection-sheet0.png
+images/traceline-sheet0.png
+images/tracenormal-sheet0.png
+images/sprite-sheet0.png
+images/friendhpbg-sheet0.png
+images/friendhpbar-sheet0.png
 media/explosion1.ogg
 media/explosion2.ogg
 media/explosion3.ogg
