@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527637718,
+	"version": 1527800219,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -49,6 +49,9 @@
 		"images/sprite-sheet0.png",
 		"images/friendhpbg-sheet0.png",
 		"images/friendhpbar-sheet0.png",
+		"images/sprite2-sheet0.png",
+		"images/smahbg-sheet0.png",
+		"images/watertrigger-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
