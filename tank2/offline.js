@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1527869072,
+	"version": 1527944233,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -52,10 +52,16 @@
 		"images/sprite2-sheet0.png",
 		"images/smahbg-sheet0.png",
 		"images/watertrigger-sheet0.png",
+		"images/turrel-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
 		"media/shoot.ogg",
+		"media/hit1.ogg",
+		"media/hit2.ogg",
+		"media/hit3.ogg",
+		"media/hit4.ogg",
+		"media/make_turret.ogg",
 		"media/normal.ogg",
 		"media/wave.ogg",
 		"media/lobby.ogg",
