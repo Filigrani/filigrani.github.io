@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1528040866,
+	"version": 1528133524,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -55,6 +55,7 @@
 		"images/turrel-sheet0.png",
 		"images/fangstick-sheet0.png",
 		"images/fangpad-sheet0.png",
+		"images/particles.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
@@ -64,6 +65,10 @@
 		"media/hit3.ogg",
 		"media/hit4.ogg",
 		"media/make_turret.ogg",
+		"media/damage1.ogg",
+		"media/damage2.ogg",
+		"media/damage3.ogg",
+		"media/damage4.ogg",
 		"media/normal.ogg",
 		"media/wave.ogg",
 		"media/lobby.ogg",
