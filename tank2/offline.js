@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1528133524,
+	"version": 1528281373,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -56,6 +56,8 @@
 		"images/fangstick-sheet0.png",
 		"images/fangpad-sheet0.png",
 		"images/particles.png",
+		"images/nexus-sheet0.png",
+		"images/nexusshield-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
