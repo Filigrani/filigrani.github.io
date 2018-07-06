@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1530388648,
+	"version": 1530874611,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -7,6 +7,7 @@
 		"offlineClient.js",
 		"images/button-sheet0.png",
 		"images/button-sheet1.png",
+		"images/button-sheet2.png",
 		"images/uibg-sheet0.png",
 		"images/class-sheet0.png",
 		"images/xpbg-sheet0.png",
@@ -37,8 +38,6 @@
 		"images/mine-sheet0.png",
 		"images/mine-sheet1.png",
 		"images/item_slot-sheet0.png",
-		"images/item_slot-sheet1.png",
-		"images/item_slot-sheet2.png",
 		"images/spawner-sheet0.png",
 		"images/color-sheet0.png",
 		"images/tracereflection-sheet0.png",
@@ -56,6 +55,9 @@
 		"images/particles.png",
 		"images/nexus-sheet0.png",
 		"images/nexusshield-sheet0.png",
+		"images/levelupbar-sheet0.png",
+		"images/levelupbg-sheet0.png",
+		"images/profileico-sheet0.png",
 		"media/explosion1.ogg",
 		"media/explosion2.ogg",
 		"media/explosion3.ogg",
@@ -69,6 +71,8 @@
 		"media/damage2.ogg",
 		"media/damage3.ogg",
 		"media/damage4.ogg",
+		"media/lvtick.m4a",
+		"media/lvtick.ogg",
 		"media/normal.ogg",
 		"media/wave.ogg",
 		"media/lobby.ogg",
@@ -82,6 +86,7 @@
 		"bauhs93.ttf",
 		"bauhs93.css",
 		"Photon-Javascript_SDK.min.js",
+		"luavm.js",
 		"pathfind.js"
 	]
 }
