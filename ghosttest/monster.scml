@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="SlimeBody">
+        <file id="0" name="SlimeBody/SlimeBody-0.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="SlimeBody/SlimeBody-1.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="SlimeBody/SlimeBody-4.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="SlimeBody/SlimeBody-3.png" width="444" height="140" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="SlimeBody/SlimeBody-2.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="SlimeBody/SlimeBody-5.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="SlimeBody/SlimeBody-7.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="SlimeBody/SlimeBody-6.png" width="197" height="179" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="SlimeEyes">
+        <file id="0" name="SlimeEyes/SlimeEyes-0.png" width="19" height="21" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="SlimeEyes/SlimeEyes-1.png" width="21" height="23" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="Fx">
+        <file id="0" name="Fx/Fx-0.png" width="50" height="44" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Slime">
+        <obj_info name="Slime_SlimeBody-0" realname="SlimeBody-0" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+                <i folder="0" file="4"/>
+                <i folder="0" file="5"/>
+                <i folder="0" file="7"/>
+                <i folder="0" file="6"/>
+                <i folder="0" file="1"/>
+                <i folder="0" file="3"/>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="Slime_SlimeEyes-0" realname="SlimeEyes-0" type="sprite">
+            <frames>
+                <i folder="1" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="Slime_SlimeEyes-1" realname="SlimeEyes-1" type="sprite">
+            <frames>
+                <i folder="1" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="Slime_bone_000" realname="bone_000" type="bone" w="93.3754" h="10"/>
+        <obj_info name="Slime_Fx-0" realname="Fx-0" type="sprite">
+            <frames>
+                <i folder="2" file="0"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="ROOT" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="0" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Shoot" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="4" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="201">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="226">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="400">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="-1">
+                    <object folder="0" file="4" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="201">
+                    <object folder="0" file="4" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="349.334955"/>
+                </key>
+                <key id="2" time="226">
+                    <object folder="0" file="5" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="349.668655"/>
+                </key>
+                <key id="3" time="400" spin="0">
+                    <object folder="0" file="4" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Def" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="7" abs_x="-89.591097" abs_y="119.005397" abs_angle="0" abs_scale_x="1" abs_scale_y="0.838028" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0" scale_y="0.838028"/>
+                </key>
+                <key id="1" time="500" spin="0">
+                    <object folder="0" file="7" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0" scale_y="0.853584"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Sleep" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="6" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="Fx-0" folder="2" file="0" abs_x="56.834521" abs_y="154.676266" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="500">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0">
+                    <object folder="0" file="6" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="500" spin="-1">
+                    <object folder="0" file="6" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="2.218243" scale_y="0.955778"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="4" name="Fx-0">
+                <key id="0" spin="-1">
+                    <object folder="2" file="0" x="78.484271" y="131.677378" pivot_x="0.432995" pivot_y="0.477298" angle="0"/>
+                </key>
+                <key id="1" time="500">
+                    <object folder="2" file="0" x="78.484271" y="131.677378" pivot_x="0.432995" pivot_y="0.477298" angle="351.678023"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Attack" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="4" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="229">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="363">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="370">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="501">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="513">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="-1">
+                    <object folder="0" file="4" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="229">
+                    <object folder="0" file="4" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="347.965821" scale_y="1.254705"/>
+                </key>
+                <key id="2" time="363" spin="-1">
+                    <object folder="0" file="4" x="-8.763024" y="24.843153" pivot_x="0.458639" pivot_y="0.227667" angle="9.028592" scale_x="1.048832" scale_y="1.104838"/>
+                </key>
+                <key id="3" time="370" spin="-1">
+                    <object folder="0" file="5" x="-8.658367" y="24.604767" pivot_x="0.458639" pivot_y="0.227667" angle="8.929377" scale_x="1.046355" scale_y="1.101983"/>
+                </key>
+                <key id="4" time="501" spin="-1">
+                    <object folder="0" file="5" x="-6.699781" y="20.143544" pivot_x="0.458639" pivot_y="0.227667" angle="7.072633" scale_y="1.048549"/>
+                </key>
+                <key id="5" time="513" spin="-1">
+                    <object folder="0" file="4" x="-5.79547" y="18.083724" pivot_x="0.458639" pivot_y="0.227667" angle="6.215344" scale_y="1.042664"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="0" file="0" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="Damaged" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="1" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="192">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="192">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="346.35665" scale_y="0.887445"/>
+                </key>
+                <key id="2" time="400" spin="0">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="Death" length="452" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="1" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="192">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="300">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="301">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="452">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="-1">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="192">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="346.35665" scale_y="0.825346"/>
+                </key>
+                <key id="2" time="300">
+                    <object folder="0" file="1" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="357.156912" scale_y="0.407033"/>
+                </key>
+                <key id="3" time="301" spin="0">
+                    <object folder="0" file="3" x="1.065276" y="3.737455" pivot_x="0.487937" pivot_y="0.430526" angle="0.209227" scale_x="0.596708" scale_y="0.485442"/>
+                </key>
+                <key id="4" time="452" spin="-1">
+                    <object folder="0" file="3" x="1.065276" y="3.737455" pivot_x="0.487937" pivot_y="0.430526" angle="0.209227" scale_x="0.596708" scale_y="0.485442"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="Stan" length="1600" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <object_ref id="0" parent="0" name="SlimeBody-0" folder="0" file="2" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" name="SlimeEyes-0" folder="1" file="0" abs_x="-41.538463" abs_y="57.115382" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="0" name="SlimeEyes-1" folder="1" file="1" abs_x="5.384607" abs_y="58.269227" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="400">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="700">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="800">
+                    <bone_ref id="0" timeline="3" key="2"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="4" time="1200">
+                    <bone_ref id="0" timeline="3" key="3"/>
+                    <object_ref id="0" parent="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="5" time="1600">
+                    <bone_ref id="0" timeline="3" key="4"/>
+                    <object_ref id="0" parent="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="3" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="3" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="96.219054" y="3.284445" pivot_x="0.458639" pivot_y="0.227667" angle="90"/>
+                </key>
+                <key id="1" time="1600" spin="0">
+                    <object folder="0" file="2" x="96.219054" y="3.284445" pivot_x="0.458639" pivot_y="0.227667" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="SlimeEyes-0">
+                <key id="0" spin="-1">
+                    <object folder="1" file="0" x="52.383557" y="-28.747033" pivot_x="0.540409" pivot_y="0.517626" angle="90"/>
+                </key>
+                <key id="1" time="400" spin="-1">
+                    <object folder="1" file="0" x="52.383557" y="-28.747033" pivot_x="0.540409" pivot_y="0.517626" angle="2.419509"/>
+                </key>
+                <key id="2" time="700" spin="-1">
+                    <object folder="1" file="0" x="52.383557" y="-28.747033" pivot_x="0.540409" pivot_y="0.517626" angle="248.224877"/>
+                </key>
+                <key id="3" time="1600" spin="0">
+                    <object folder="1" file="0" x="52.383557" y="-28.747033" pivot_x="0.540409" pivot_y="0.517626" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="SlimeEyes-1">
+                <key id="0" spin="-1">
+                    <object folder="1" file="1" x="52.375677" y="19.506083" pivot_x="0.552277" pivot_y="0.509747" angle="90"/>
+                </key>
+                <key id="1" time="400" spin="-1">
+                    <object folder="1" file="1" x="52.375677" y="19.506083" pivot_x="0.552277" pivot_y="0.509747" angle="2.419509"/>
+                </key>
+                <key id="2" time="700" spin="-1">
+                    <object folder="1" file="1" x="52.375677" y="19.506083" pivot_x="0.552277" pivot_y="0.509747" angle="234.766877"/>
+                </key>
+                <key id="3" time="1600" spin="0">
+                    <object folder="1" file="1" x="52.375677" y="19.506083" pivot_x="0.552277" pivot_y="0.509747" angle="90"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="3" name="bone_000" object_type="bone">
+                <key id="0" spin="-1">
+                    <bone x="-2.523659" y="99.369085" angle="270"/>
+                </key>
+                <key id="1" time="400">
+                    <bone x="1.892744" y="98.73817" angle="267.580491" scale_y="0.9"/>
+                </key>
+                <key id="2" time="800">
+                    <bone x="-2.523659" y="99.369085" angle="270"/>
+                </key>
+                <key id="3" time="1200" spin="-1">
+                    <bone x="-8.832808" y="99.529968" angle="272.233809" scale_y="0.9"/>
+                </key>
+                <key id="4" time="1600" spin="0">
+                    <bone x="-2.523659" y="99.369085" angle="270"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="8" name="Idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="SlimeBody-0" folder="0" file="0" abs_x="-89.591097" abs_y="141.397638" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="501">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="SlimeBody-0">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0"/>
+                </key>
+                <key id="1" time="501" spin="0">
+                    <object folder="0" file="0" x="0.760786" y="3.150031" pivot_x="0.458639" pivot_y="0.227667" angle="0" scale_y="0.957287"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

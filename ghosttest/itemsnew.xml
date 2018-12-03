@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+       <item id='Chest'> 
+              <type>armor</type>
+              <png>none_ar</png>
+			  <shoulder_r>none_sh</shoulder_r>
+			  <shoulder_l>none_sh</shoulder_l>
+              <name>Chest</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>chest</slot>	          
+	   </item>
+       <item id='Head'> 
+              <type>armor</type>
+              <png>none_he</png>
+              <name>Head</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>head</slot>	          
+	   </item>
+       <item id='Tail'> 
+              <type>armor</type>
+              <png>none_be</png>
+			  <lowerbelt>none_be_low</lowerbelt>
+              <name>Tail</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>belt</slot>	          
+	   </item>
+       <item id='Hands'> 
+              <type>weapon</type>
+              <png>none_wep</png>
+              <name>Hands</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <dmg_min>2</dmg_min>		
+              <dmg_max>4</dmg_max>			  
+	   </item>
+       <item id='Leather belt'> 
+              <type>armor</type>
+              <png>belt01</png>
+			  <lowerbelt>belt01_low</lowerbelt>
+              <name>Leather belt</name>
+              <desc>Shabby belt.</desc>
+              <price>0</price>
+              <armor>2</armor>
+              <slot>belt</slot>	          
+	   </item>
+       <item id='Black belt'> 
+              <type>armor</type>
+              <png>belt02</png>
+			  <lowerbelt>belt02_low</lowerbelt>
+              <name>Black belt</name>
+              <desc>Looks sexy isn't it?</desc>
+              <price>250</price>
+              <armor>5</armor>
+              <slot>belt</slot>	          
+	   </item>
+       <item id='Ancient armor'> 
+              <type>armor</type>
+              <png>old_ar</png>
+			  <shoulder_r>old_sh_1</shoulder_r>
+			  <shoulder_l>old_sh_2</shoulder_l>
+              <name>Ancient armor</name>
+              <desc>This armor could belong to some hero.</desc>
+              <price>740</price>
+              <armor>23</armor>
+              <slot>chest</slot>	          
+	   </item>
+       <item id='Ancient helmet'> 
+              <type>armor</type>
+              <png>old_he</png>
+              <name>Ancient armor</name>
+              <desc>This helmet could belong to some hero.</desc>
+              <price>740</price>
+              <armor>12</armor>
+              <slot>head</slot>	          
+	   </item>
+       <item id='Old knife'> 
+              <type>weapon</type>
+              <png>wep02</png>
+              <name>Old knife</name>
+              <desc>Old blunt knife.</desc>
+              <price>340</price>
+              <dmg_min>4</dmg_min>		
+              <dmg_max>12</dmg_max>			  
+	   </item>
+       <item id='Hunting knife'> 
+              <type>weapon</type>
+              <png>wep01</png>
+              <name>Hunting knife</name>
+              <desc>Good knife for hunt on monsters.</desc>
+              <price>470</price>
+              <dmg_min>5</dmg_min>		
+              <dmg_max>15</dmg_max>			  
+	   </item>
+</items>
