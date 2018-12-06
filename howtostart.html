@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="DungenGhost API Documentation"/>
+<meta name="keywords" content="Filigrani/Fili"/>
+<meta name="author" content="Filigrani"/>
+<link rel="stylesheet" type="text/css" href="default.css"/>
+<title>DungenGhost API Documentation</title>
+</head>
+
+<body>
+
+<div id="main">
+
+	<div id="main_left">
+
+		<div id="header">
+			<h1><a href="index.html">DungenGhost API Documentation</a></h1>
+		</div>
+        <h2><p>How to start?</p></h2>
+		<div id="content">
+			<div class="descr"></div>
+			<div class="post_body">
+			    <p>1. Create an empty folder in "mods" folder, folder name and will be the name of the mod. Exmaple: "mods\MyNewMod"</p>
+				<p>2. In the folder of your mod, create a subfolder with name "Sprites", all images that your mod will use will be stored here. Exmaple: "mods\MyNewMod\Sprites"</p>
+				<p>3. Create an empty xml file in your mod folder. To do this, open any text editor and save the file with the extension .xml and name it "items"</p>
+				<p></p>
+				<p>Now you have everything to start add new items in game.</p>
+		</div>
+	</div>
+        <h2><p>How add new items?</p></h2>
+		<div id="content">
+			<div class="descr"></div>
+			<div class="post_body">
+			    <p>All information about your new items will be stored in the file items.xml and to create new items you must have basic knowledge in the XML markup language.</p>
+				<p></p>
+				<p></p>
+				<p>Let's start!</p>
+				<p>To create new item you should open element <font size="2" color="blue" face="Arial">&lt;item&gt;</font> with id of your item. This will looks like that:</p>
+				<p><img src="docpic/1.png"</p> 
+				<p>Where is the "My new weapon" the name of your item.</p>
+				<p>Next need to write type of your item this can be weapon, armor or material. To set item type for your item just inside element <font size="2" color="blue" face="Arial">&lt;item&gt;</font> create new element <font size="2" color="blue" face="Arial">&lt;type&gt;</font> with type of your item. This should looks like that: </p>
+				<p><img src="docpic/2.png"</p> 
+				<p>In our exmaple we will create new weapon as you might already guess. But we need still need set general elements for this item.</p>
+				<p>What is general elements?</p>
+				<p>General elements these are the elements that should be in each item that you will create. Let's take a look at them.</p>
+				<font size="2" color="blue" face="Arial">&lt;type&gt;</font> - This type of item we already added it.<br>
+				<font size="2" color="blue" face="Arial">&lt;inv_png&gt;</font> - The name of the picture that will be used for this item in the user interface. (inventory, shop, pickup notifications and etc).<br>
+				<font size="2" color="blue" face="Arial">&lt;name&gt;</font> - This name of your item, Id and this name should be same.<br>
+				<font size="2" color="blue" face="Arial">&lt;desc&gt;</font> - This just description for your item, this text you can see if click on item in inventory or in shop.<br>
+				<font size="2" color="blue" face="Arial">&lt;price&gt;</font> - This how many gold you need to buy this item, or how many gold you will get if you sell this item.<br>	
+                <font size="2" color="blue" face="Arial">&lt;modname&gt;</font> - Here you need write name of your mod(mod's folder name) so that the game could understand to which mod this item belongs.<br>	
+                <p><img src="docpic/3.png"</p> 	
+                <p>Alright! General elements on the spot! Now we can add other elements. Every type of items armor, weapons and etc have own required elements, each type have different. But we in this exmaple create weapon, then we need elements for weapon type.</p>				
+				<font size="2" color="blue" face="Arial">&lt;png&gt;</font> - This image of weapons in the hands of the protagonist. Images templates you can find on this side in tab "Image templates"<br>
+				<font size="2" color="blue" face="Arial">&lt;slot&gt;</font> - This name of slot for equiping, in this case should be "Hands"<br>
+				<font size="2" color="blue" face="Arial">&lt;dmg_min&gt;</font> - This is the minimal damage a weapon can del.<br>
+				<font size="2" color="blue" face="Arial">&lt;dmg_max&gt;</font> - This is the maximal damage a weapon can del.<br>
+				<p><img src="docpic/4.png"</p> 	
+				<p>Items can go in any order it doesn't matter.</p>
+				<p>Good job! If you did everything correctly when you turn on the mod you will be able to find your item in the game.</p>
+		</div>
+	</div>
+	</div>
+
+	<div id="main_right">
+
+		<div class="label">Start guides</div>
+
+		<ul class="block">
+			<li><a href="howtostart.html">How to start?</a></li>
+			<li><a href="">Image templates</a></li>
+			<li><a href="">Mod exmaple</a></li>
+		</ul>
+		<div class="label">XML elements</div>
+
+		<ul class="block">
+			<li><a href="general.html">General elements</a></li>
+			<li><a href="armor.html">Armors elements</a></li>
+			<li><a href="weapon.html">Weapons elements</a></li>
+			<li><a href="belt.html">Belts elements</a></li>
+			<li><a href="materials.html">Materials elements</a></li>
+		</ul>
+	</div>
+
+</div>
+
+</body>
+
+</html>
