@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+        <skill id='Walk Back'>
+		       <type>anywhere</type>
+			   <staminaprice>5</staminaprice>
+		</skill>
+        <skill id='Quick Strike'>
+		       <type>inbatte</type>
+			   <staminaprice>15</staminaprice>
+			   <chance>75<chance>
+		</skill>
+        <skill id='Medium Strike'>
+		       <type>inbatte</type>
+			   <staminaprice>25</staminaprice>
+			   <chance>50<chance>
+		</skill>
+        <skill id='Heavy Strike'>
+		       <type>inbatte</type>
+			   <staminaprice>35</staminaprice>
+			   <chance>25<chance>
+		</skill>
+        <skill id='Charge'>
+		       <type>notinbatte</type>
+			   <staminaprice>35</staminaprice>
+			   <chance>25<chance>
+		</skill>
+        <skill id='Sleep'>
+		       <type>anywhere</type>
+			   <heal>3</heal>
+			   <rest>20</rest>
+		</skill>
+        <skill id='Shove Enemy'>
+		       <type>inbatte</type>
+			   <staminaprice>5</staminaprice>
+		</skill>
+        <skill id='Walk Forward'>
+		       <type>notinbatte</type>
+			   <staminaprice>5</staminaprice>
+		</skill>
+</skills>
