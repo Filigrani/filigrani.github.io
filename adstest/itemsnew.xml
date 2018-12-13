@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+       <item id='Chest'> 
+              <type>armor</type>
+              <png>none_ar</png>
+			  <inv_png>nothing</inv_png>
+			  <shoulder_r>none_sh</shoulder_r>
+			  <shoulder_l>none_sh</shoulder_l>
+              <name>Chest</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>Chest</slot>	          
+	   </item>
+       <item id='Head'> 
+              <type>armor</type>
+              <png>none_he</png>
+			  <inv_png>nothing</inv_png>
+              <name>Head</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>Head</slot>	          
+	   </item>
+       <item id='Tail'> 
+              <type>armor</type>
+              <png>none_be</png>
+			  <inv_png>nothing</inv_png>
+			  <lowerbelt>none_be_low</lowerbelt>
+              <name>Tail</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <armor>0</armor>
+              <slot>Belt</slot>	          
+	   </item>
+       <item id='Hands'> 
+              <type>weapon</type>
+              <png>none_wep</png>
+			  <inv_png>nothing</inv_png>
+              <name>Hands</name>
+              <desc>This nothing.</desc>
+              <price>0</price>
+              <dmg_min>2</dmg_min>		
+              <dmg_max>4</dmg_max>			  
+	   </item>
+       <item id='Leather belt'> 
+              <type>armor</type>
+              <png>belt01</png>
+			  <lowerbelt>belt01_low</lowerbelt>
+			  <inv_png>belt01_inv</inv_png>
+              <name>Leather belt</name>
+              <desc>Shabby belt.</desc>
+              <price>0</price>
+              <armor>2</armor>
+              <slot>Belt</slot>	          
+	   </item>
+       <item id='Black belt'> 
+              <type>armor</type>
+              <png>belt02</png>			  
+			  <lowerbelt>belt02_low</lowerbelt>
+			  <inv_png>belt02_inv</inv_png>
+              <name>Black belt</name>
+              <desc>Looks sexy isn't it?</desc>
+              <price>250</price>
+              <armor>5</armor>
+              <slot>Belt</slot>	          
+	   </item>
+       <item id='Ancient armor'> 
+              <type>armor</type>
+              <png>old_ar</png>
+			  <inv_png>old_ar_inv</inv_png>
+			  <shoulder_r>old_sh_1</shoulder_r>
+			  <shoulder_l>old_sh_2</shoulder_l>
+              <name>Ancient armor</name>
+              <desc>This armor could belong to some hero.</desc>
+              <price>740</price>
+              <armor>23</armor>
+              <slot>Chest</slot>	          
+	   </item>
+       <item id='Ancient helmet'> 
+              <type>armor</type>
+              <png>old_he</png>
+			  <inv_png>old_he_inv</inv_png>
+              <name>Ancient armor</name>
+              <desc>This helmet could belong to some hero.</desc>
+              <price>740</price>
+              <armor>12</armor>
+              <slot>Head</slot>	          
+	   </item>
+       <item id='Old knife'> 
+              <type>weapon</type>
+              <png>wep02</png>
+			  <inv_png>wep02_inv</inv_png>
+              <name>Old knife</name>
+              <desc>Old blunt knife.</desc>
+              <price>340</price>
+              <dmg_min>4</dmg_min>		
+              <dmg_max>12</dmg_max>	
+              <slot>Hands</slot>			  
+	   </item>
+       <item id='Hunting knife'> 
+              <type>weapon</type>
+              <png>wep01</png>
+              <name>Hunting knife</name>
+              <desc>Good knife for hunt on monsters.</desc>
+              <price>470</price>
+              <dmg_min>5</dmg_min>		
+              <dmg_max>15</dmg_max>	
+              <slot>Hands</slot>				  
+	   </item>
+       <item id='Gel'> 
+              <type>material</type>
+              <inv_png>gel</inv_png>
+              <name>Gel</name>
+              <desc>Slime's gel.</desc>
+              <price>10</price>			  
+	   </item>
+       <item id='Eye'> 
+              <type>material</type>
+              <inv_png>eye</inv_png>
+              <name>Eye</name>
+              <desc>This looking intro your soul.</desc>
+              <price>25</price>			  
+	   </item>
+       <item id='Bottle'> 
+              <type>material</type>
+              <inv_png>potion00</inv_png>
+              <name>Bottle</name>
+              <desc>Empty glass bottle.</desc>
+              <price>5</price>			  
+	   </item>
+       <item id='Stamina potion'> 
+              <type>consumable</type>
+			  <animation>Drink</animation>
+              <inv_png>potion01</inv_png>
+              <name>Stamina potion</name>
+              <desc>This drink will fill your body with energy.</desc>
+			  <info>Stamina(+80)</info>
+			  <stamina>80</stamina>
+              <price>270</price>			  
+	   </item>
+       <item id='Health potion'> 
+              <type>consumable</type>
+			  <animation>Drink</animation>
+              <inv_png>potion02</inv_png>
+              <name>Health potion</name>
+              <desc>Juice of life.</desc>
+			  <info>Health(+30)</info>
+			  <health>30</health>
+              <price>870</price>			  
+	   </item>
+       <item id='Armor potion'> 
+              <type>consumable</type>
+			  <animation>Drink</animation>
+              <inv_png>potion03</inv_png>
+              <name>Armor potion</name>
+              <desc>This a magic.</desc>
+			  <info>Repair armor(+20%)</info>
+			  <armor>30</armor>		  
+	   </item>
+       <item id='Mushrooms'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food01</inv_png>
+              <name>Mushrooms</name>
+              <desc>Strange mushrooms. They are edible, aren't they?</desc>
+			  <info>Stamina(+40) Health(+12)</info>
+			  <health>12</health>
+			  <stamina>40</stamina>
+              <price>230</price>			  
+	   </item>
+       <item id='Ribs'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food02</inv_png>
+              <name>Ribs</name>
+              <desc>Tasty ribs.</desc>
+			  <info>Stamina(+45) Health(+20)</info>
+			  <health>20</health>
+			  <stamina>45</stamina>
+              <price>340</price>			  
+	   </item>
+       <item id='Cake'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food03</inv_png>
+              <name>Cake</name>
+              <desc>Sweet cake. Happy birthday!</desc>
+			  <info>Stamina(+28) Health(+7)</info>
+			  <health>7</health>
+			  <stamina>28</stamina>
+              <price>340</price>			  
+	   </item>
+       <item id='Raw potato'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food04</inv_png>
+              <name>Raw potato</name>
+              <desc>My little potato.</desc>
+			  <info>Stamina(+10) Health(+2)</info>
+			  <health>2</health>
+			  <stamina>10</stamina>
+              <price>340</price>			  
+	   </item>
+      <item id='Carrot'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food05</inv_png>
+              <name>Carrot</name>
+              <desc>Maybe you can cook with it something.</desc>
+			  <info>Stamina(+10) Health(+5)</info>
+			  <health>5</health>
+			  <stamina>10</stamina>
+              <price>340</price>			  
+	   </item>
+      <item id='Bread'> 
+              <type>consumable</type>
+			  <animation>Eat</animation>
+              <inv_png>food06</inv_png>
+              <name>Bread</name>
+              <desc>This solid like a brick.</desc>
+			  <info>Stamina(+38)</info>
+			  <stamina>38</stamina>
+              <price>340</price>			  
+	   </item>
+</items>
