@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music>
+      <song>
+	        <name>Something is near</name>
+			<performer>Marcelo Fernandez</performer>
+			<file>Something-is-near.ogg</file>
+	  </song>
+      <song>
+	        <name>Act Three</name>
+			<performer>Jason Shaw</performer>
+			<file>ActThree.ogg</file>
+	  </song>
+      <song>
+	        <name>Before Dawn</name>
+			<performer>Jason Shaw</performer>
+			<file>BeforeDawn.ogg</file>
+	  </song>
+      <song>
+	        <name>Atlantis</name>
+			<performer>Jason Shaw</performer>
+			<file>Atlantis.ogg</file>
+	  </song>
+</music>
