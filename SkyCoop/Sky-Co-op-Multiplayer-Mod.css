@@ -14,7 +14,7 @@
 
 .u-section-1 .u-list-1 {
   width: 361px;
-  min-height: 344px;
+  min-height: 430px;
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
   grid-gap: 0px 0px;
@@ -69,6 +69,18 @@
   margin: 0 63px 0 0;
 }
 
+.u-section-1 .u-list-item-5 {
+  background-image: none;
+}
+
+.u-section-1 .u-container-layout-5 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-6 {
+  margin: 0 63px 0 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 620px;
@@ -115,6 +127,10 @@
   }
 
   .u-section-1 .u-text-5 {
+    width: auto;
+  }
+
+  .u-section-1 .u-text-6 {
     width: auto;
   }
 }
@@ -186,6 +202,16 @@
   }
 
   .u-section-1 .u-text-5 {
+    margin-right: 42px;
+    margin-left: 57px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-text-6 {
     margin-right: 42px;
     margin-left: 57px;
   }
