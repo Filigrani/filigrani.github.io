@@ -1,0 +1,9050 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -61.92079378091327,
+										"abs_y": -59.2285707343426,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.95845593423536,
+										"abs_y": -3.672864326924625,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -141.83252470336106,
+										"abs_y": 77.59298354946412,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 147.681192,
+										"y": -111.158624
+									},
+									"spin": 0
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 90.75228700000002,
+										"x": -20.114943,
+										"y": -4.403941
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 499
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -61.92079378091327,
+										"abs_y": -59.2285707343426,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.95845593423536,
+										"abs_y": -3.672864326924625,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -141.83252470336106,
+										"abs_y": 77.59298354946412,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "Move",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 147.681192,
+										"y": -111.158624
+									},
+									"spin": 0
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": 0
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -29.638752,
+										"y": -9.737274
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"interval": 100,
+					"length": 500,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -61.92079378091327,
+										"abs_y": -59.2285707343426,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.95845685651248,
+										"abs_y": -3.6728635238613485,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -141.83252470336106,
+										"abs_y": 77.59298354946412,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 59
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 152
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "3"
+									}
+								],
+								"time": 244
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 4,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "3"
+									}
+								],
+								"time": 390
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "3"
+									}
+								],
+								"time": 457
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 5,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "3"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 7,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "Shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 269.522546,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 269.522546,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 269.522546,
+										"file": 4,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 3,
+									"spin": -1,
+									"time": 244
+								},
+								{
+									"bone": {
+										"angle": 321.832712,
+										"x": -95.805444,
+										"y": 129.548212
+									},
+									"id": 4,
+									"time": 390
+								},
+								{
+									"bone": {
+										"angle": 333.040896,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 5,
+									"time": 457
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 6,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -16.305419,
+										"y": 17.881773
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -9.305419,
+										"y": -18.118227
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -1.305419,
+										"y": -27.118227
+									},
+									"id": 3,
+									"time": 244
+								},
+								{
+									"bone": {
+										"angle": 79.31490400000001,
+										"x": -9.305419,
+										"y": -25.118227
+									},
+									"id": 4,
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"bone": {
+										"angle": 79.31490400000001,
+										"x": -9.305419,
+										"y": -25.118227
+									},
+									"id": 5,
+									"time": 457
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 6,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 339.524362,
+										"file": 0,
+										"folder": 4,
+										"pivot_x": 0.448147,
+										"pivot_y": 0.502334,
+										"x": 20.925255,
+										"y": -4.113711
+									},
+									"time": 244
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 347.853862,
+										"file": 0,
+										"folder": 4,
+										"pivot_x": 0.448147,
+										"pivot_y": 0.502334,
+										"x": 21.116872,
+										"y": -20.461016
+									},
+									"time": 390
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 348.069241,
+										"file": 0,
+										"folder": 4,
+										"pivot_x": 0.448147,
+										"pivot_y": 0.502334,
+										"x": 8.350405,
+										"y": -5.311316
+									},
+									"time": 457
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 358.699639,
+										"file": 0,
+										"folder": 4,
+										"pivot_x": 0.448147,
+										"pivot_y": 0.502334,
+										"x": -7.218457,
+										"y": 22.233594
+									},
+									"spin": -1,
+									"time": 499
+								}
+							],
+							"name": "WeaponExtra-0",
+							"obj": 5
+						}
+					]
+				},
+				{
+					"id": 3,
+					"interval": 100,
+					"length": 500,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -61.92079378091327,
+										"abs_y": -59.2285707343426,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.95845685651248,
+										"abs_y": -3.6728635238613485,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -141.83252470336106,
+										"abs_y": 77.59298354946412,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 59
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 152
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 244
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 390
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 457
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 6,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 6,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 6,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 6,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 500
+							}
+						]
+					},
+					"name": "Shoot_NoAnim",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 244
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 457
+								},
+								{
+									"id": 6,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"bone": {
+										"angle": 331.105804,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 3,
+									"spin": -1,
+									"time": 244
+								},
+								{
+									"bone": {
+										"angle": 319.912116,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 4,
+									"time": 390
+								},
+								{
+									"bone": {
+										"angle": 333.040896,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 5,
+									"time": 457
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 6,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -16.305419,
+										"y": 17.881773
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 59
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -9.305419,
+										"y": -18.118227
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 152
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -1.305419,
+										"y": -27.118227
+									},
+									"id": 3,
+									"time": 244
+								},
+								{
+									"bone": {
+										"angle": 79.31490400000001,
+										"x": -9.305419,
+										"y": -25.118227
+									},
+									"id": 4,
+									"spin": 0,
+									"time": 390
+								},
+								{
+									"bone": {
+										"angle": 79.31490400000001,
+										"x": -9.305419,
+										"y": -25.118227
+									},
+									"id": 5,
+									"time": 457
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 6,
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"interval": 100,
+					"length": 300,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -61.92079378091327,
+										"abs_y": -59.2285707343426,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.95845685651248,
+										"abs_y": -3.6728635238613485,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -141.83252470336106,
+										"abs_y": 77.59298354946412,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 82
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 170
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 239
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 300
+							}
+						]
+					},
+					"name": "Shoot_Old",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 82
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 324.75548,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"time": 170
+								},
+								{
+									"bone": {
+										"angle": 337.001554,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"time": 239
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 69.98695700000002,
+										"x": -16.305419,
+										"y": 17.881773
+									},
+									"id": 1,
+									"time": 82
+								},
+								{
+									"bone": {
+										"angle": 78.67246899999998,
+										"x": -1.432507,
+										"y": -23.265649
+									},
+									"id": 2,
+									"time": 170
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 5,
+					"interval": 100,
+					"length": 350,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 26.144807999999955,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -200.0118383258554,
+										"abs_y": 150.26080562763067,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 298.16421199999996,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 225.43464745836047,
+										"abs_y": -57.006197455553334,
+										"file": 0,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 26.49567099999996,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -211.45803089732195,
+										"abs_y": 308.2956344827766,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 243
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 290
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									}
+								],
+								"time": 350
+							}
+						]
+					},
+					"name": "Grab",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 207.686758,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 58.980891,
+										"y": -246.049624
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 243
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": 0,
+									"time": 290
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 269.522546,
+										"file": 0,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403317,
+										"y": -35.136312
+									},
+									"spin": -1,
+									"time": 350
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 243
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 290
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 243
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 290
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 3.167958999999996,
+										"x": -315.105917,
+										"y": 190.579863
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 243
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 290
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 3,
+									"time": 350
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -22.019704,
+										"y": -36.403941
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 243
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -16.403941
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 290
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -20.114943,
+										"y": -4.022989
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "ShootGun",
+			"obj_info": [
+				{
+					"h": 10,
+					"name": "ShootGun_Arm1",
+					"realname": "Arm1",
+					"type": "bone",
+					"w": 210.257
+				},
+				{
+					"h": 10,
+					"name": "ShootGun_Base",
+					"realname": "Base",
+					"type": "bone",
+					"w": 68.9679
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						},
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "ShootGun_Weapon-0",
+					"realname": "Weapon-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "ShootGun_Arm1-0",
+					"realname": "Arm1-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 2
+						}
+					],
+					"name": "ShootGun_Arm1Back-0",
+					"realname": "Arm1Back-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 4
+						}
+					],
+					"name": "ShootGun_WeaponExtra-0",
+					"realname": "WeaponExtra-0",
+					"type": "sprite"
+				}
+			]
+		},
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -67.92079346023019,
+										"abs_y": -62.2285711878678,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -36.041544659113725,
+										"abs_y": -76.67286351254221,
+										"file": 2,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -147.83252438267797,
+										"abs_y": 74.5929830959389,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.000000686200735,
+										"abs_y": -45.99999983616115,
+										"file": 1,
+										"folder": 3,
+										"id": 3,
+										"key": 0,
+										"name": "Arm2-1",
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -7.022989
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 499
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-1",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 6,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -67.92079346023019,
+										"abs_y": -62.2285711878678,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -36.041544659113725,
+										"abs_y": -76.67286351254221,
+										"file": 2,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -147.83252438267797,
+										"abs_y": 74.5929830959389,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.000000686200735,
+										"abs_y": -45.99999983616115,
+										"file": 1,
+										"folder": 3,
+										"id": 3,
+										"key": 0,
+										"name": "Arm2-1",
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Move",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -22.491287,
+										"y": -16.700408
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 499
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-1",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 6,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"interval": 100,
+					"length": 900,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -67.92079346023019,
+										"abs_y": -62.2285711878678,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -36.041544659113725,
+										"abs_y": -76.67286351254221,
+										"file": 2,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -147.83252438267797,
+										"abs_y": 74.5929830959389,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -15.000000686200735,
+										"abs_y": -45.99999983616115,
+										"file": 1,
+										"folder": 3,
+										"id": 3,
+										"key": 0,
+										"name": "Arm2-1",
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 50
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 229
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 455
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 4,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 4,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 4,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 649
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 5,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 4,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 5,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 5,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 5,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 900
+							}
+						]
+					},
+					"name": "Shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 205.517476,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 226.488081,
+										"y": -26.538793
+									},
+									"time": 50
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"time": 229
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 226.487335,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 234.942557,
+										"y": -2.011325
+									},
+									"spin": 0,
+									"time": 455
+								},
+								{
+									"id": 4,
+									"object": {
+										"angle": 226.487335,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 234.942557,
+										"y": -2.011325
+									},
+									"spin": -1,
+									"time": 649
+								},
+								{
+									"id": 5,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 229
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 649
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 229
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 649
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 338.270893,
+										"x": -71.33665,
+										"y": 107.40277
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 50
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 229
+								},
+								{
+									"bone": {
+										"angle": 318.145392,
+										"x": -106.717091,
+										"y": 136.898584
+									},
+									"id": 3,
+									"time": 649
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 4,
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 75.841205,
+										"x": 36.885057,
+										"y": -30.022989
+									},
+									"id": 1,
+									"time": 50
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 2,
+									"time": 229
+								},
+								{
+									"bone": {
+										"angle": 112.374426,
+										"x": 17.885057,
+										"y": -77.022989
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 455
+								},
+								{
+									"bone": {
+										"angle": 112.374426,
+										"x": 17.885057,
+										"y": -77.022989
+									},
+									"id": 4,
+									"spin": -1,
+									"time": 649
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 5,
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 229
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 649
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Arm2-1",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.797422,
+										"y": -167.916472
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 50
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 2,
+									"time": 229
+								},
+								{
+									"bone": {
+										"angle": 56.48892000000001,
+										"x": -62.320158,
+										"y": -161.200214
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 455
+								},
+								{
+									"bone": {
+										"angle": 56.48892000000001,
+										"x": -62.320158,
+										"y": -161.200214
+									},
+									"id": 4,
+									"spin": -1,
+									"time": 649
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 5,
+									"spin": 0,
+									"time": 900
+								}
+							],
+							"name": "Arm2",
+							"obj": 6,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"interval": 100,
+					"length": 350,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 25.233420999999964,
+										"abs_pivot_x": 0.420792,
+										"abs_pivot_y": 0.2714289999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -43.49222604667134,
+										"abs_y": 120.9342308008375,
+										"file": 0,
+										"folder": 2,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1Back-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 262.965096,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 326.5754693623994,
+										"abs_y": 87.54132265233952,
+										"file": 2,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 25.58428399999997,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -57.45067779489767,
+										"abs_y": 278.7670033179887,
+										"file": 0,
+										"folder": 1,
+										"id": 2,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 289.903935,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 258.8983265032402,
+										"abs_y": 90.76834161918151,
+										"file": 1,
+										"folder": 3,
+										"id": 3,
+										"key": 0,
+										"name": "Arm2-1",
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 4
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 6
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "0",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 1,
+										"timeline": "1",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"parent": 2,
+										"timeline": "5",
+										"z_index": "3"
+									}
+								],
+								"time": 350
+							}
+						]
+					},
+					"name": "Grab",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 188.089103,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 215.503699,
+										"y": -63.549758
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027943,
+										"file": 2,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 229.566695,
+										"y": -12.098498
+									},
+									"spin": -1,
+									"time": 350
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 0,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 3
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.499395,
+										"file": 0,
+										"folder": 2,
+										"pivot_x": 0.420792,
+										"pivot_y": 0.2714289999999999,
+										"x": 169.588533,
+										"y": -18.871442
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm1Back-0",
+							"obj": 4
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 2.2565720000000056,
+										"x": -285.887488,
+										"y": 39.521617
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -81.094598,
+										"y": 133.818342
+									},
+									"id": 1,
+									"time": 350
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -17.114943,
+										"y": -5.022989
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 215.027942,
+										"file": 1,
+										"folder": 3,
+										"x": 194.730876,
+										"y": 0.94132
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm2-1",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"bone": {
+										"angle": 344.398539,
+										"x": -275.851725,
+										"y": -223.824029
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 54.49460399999998,
+										"x": -61.32584,
+										"y": -161.609523
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 350
+								}
+							],
+							"name": "Arm2",
+							"obj": 6,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 1,
+			"name": "Rifle",
+			"obj_info": [
+				{
+					"h": 10,
+					"name": "Rifle_Arm1",
+					"realname": "Arm1",
+					"type": "bone",
+					"w": 210.257
+				},
+				{
+					"h": 10,
+					"name": "Rifle_Base",
+					"realname": "Base",
+					"type": "bone",
+					"w": 68.9679
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "Rifle_Weapon-0",
+					"realname": "Weapon-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 1
+						}
+					],
+					"name": "Rifle_Arm1-0",
+					"realname": "Arm1-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 2
+						}
+					],
+					"name": "Rifle_Arm1Back-0",
+					"realname": "Arm1Back-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 3
+						}
+					],
+					"name": "Rifle_Arm2-1",
+					"realname": "Arm2-1",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "Rifle_Arm2",
+					"realname": "Arm2",
+					"type": "bone",
+					"w": 130.668
+				}
+			]
+		},
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 1
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999406318238e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -26.878279151785847,
+										"abs_y": -30.203476515493577,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.99999999999994,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 118.80569665177316,
+										"abs_y": 90.78056290780268,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 1
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "1"
+									}
+								],
+								"time": 499
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 1
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 3
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 1,
+										"timeline": "2",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 269.522547,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403318,
+										"y": -35.136311
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 269.522547,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 7.403318,
+										"y": -35.136311
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -61.951678,
+										"y": 22.507623
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -60.93127,
+										"y": 23.670889
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 499
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -61.951678,
+										"y": 22.507623
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Base",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"bone": {
+										"angle": 54.95475699999997,
+										"x": -125.230424,
+										"y": -203.772344
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 54.95475699999997,
+										"x": -125.230424,
+										"y": -203.772344
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -26.87827969664724,
+										"abs_y": -30.203476030628934,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 118.80569759888091,
+										"abs_y": 90.78056266381294,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Move",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.56779,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 214.223488,
+										"y": -11.752389
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.56779,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 214.223488,
+										"y": -11.752389
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 2
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 145.432211,
+										"x": 142.857143,
+										"y": -101.020408
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 142.411493,
+										"x": 123.469388,
+										"y": -91.836735
+									},
+									"id": 1,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 145.432211,
+										"x": 142.857143,
+										"y": -101.020408
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"interval": 100,
+					"length": 400,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -26.87827969664724,
+										"abs_y": -30.203476030628934,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 118.80569759888091,
+										"abs_y": 90.78056266381294,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 99
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 400
+							}
+						]
+					},
+					"name": "Shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.56779,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 214.223488,
+										"y": -11.752389
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.56779,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 214.223488,
+										"y": -11.752389
+									},
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 2
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 145.432211,
+										"x": 142.857143,
+										"y": -101.020408
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 119.782038,
+										"x": 110.204082,
+										"y": -43.877551
+									},
+									"id": 1,
+									"time": 99
+								},
+								{
+									"bone": {
+										"angle": 145.432211,
+										"x": 142.857143,
+										"y": -101.020408
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 400
+								}
+							],
+							"name": "Arm2",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"interval": 100,
+					"length": 350,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 166.40495200000004,
+										"abs_pivot_x": 0.532197,
+										"abs_pivot_y": 0.42526700000000006,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 36.868746222895425,
+										"abs_y": 5.030581218116481,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 59.79171200000002,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 166.82485131395998,
+										"abs_y": -107.73416565348253,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 350
+							}
+						]
+					},
+					"name": "Grab",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 321.181029,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 191.235365,
+										"y": 51.845101
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.56779,
+										"file": 1,
+										"folder": 0,
+										"pivot_x": 0.532197,
+										"pivot_y": 0.42526700000000006,
+										"x": 214.223488,
+										"y": -11.752389
+									},
+									"time": 350
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 1
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 2
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 205.223923,
+										"x": 187.77551,
+										"y": 123.367347
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 145.432211,
+										"x": 142.857143,
+										"y": -101.020408
+									},
+									"id": 1,
+									"time": 350
+								}
+							],
+							"name": "Arm2",
+							"obj": 3,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 2,
+			"name": "Raygun",
+			"obj_info": [
+				{
+					"h": 10,
+					"name": "Raygun_Base",
+					"realname": "Base",
+					"type": "bone",
+					"w": 68.9679
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "Raygun_Weapon-0",
+					"realname": "Weapon-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 3
+						}
+					],
+					"name": "Raygun_Arm2-0",
+					"realname": "Arm2-0",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "Raygun_Arm2",
+					"realname": "Arm2",
+					"type": "bone",
+					"w": 203.225
+				}
+			]
+		},
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.576549,
+										"abs_pivot_y": 0.18135,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.923450074990427,
+										"abs_y": 11.681351143279471,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 355.840682,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 133.61173913583278,
+										"abs_y": 100.06307953271224,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 219.141942,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									},
+									"spin": -1,
+									"time": 500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 141.640415,
+										"x": 156.857142,
+										"y": -113.020408
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 2,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 300,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.576549,
+										"abs_pivot_y": 0.18135,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.923450074990427,
+										"abs_y": 11.681351143279471,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 355.840682,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 133.61173913583278,
+										"abs_y": 100.06307953271224,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 59
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 180
+							}
+						]
+					},
+					"name": "Shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 206.054158,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"scale_x": 0.994172,
+										"scale_y": 0.976202,
+										"x": 173.170059,
+										"y": 10.249284
+									},
+									"time": 59
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 246.038842,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"scale_x": 0.982219,
+										"scale_y": 0.927397,
+										"x": 172.492023,
+										"y": 9.699352
+									},
+									"spin": -1,
+									"time": 180
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"scale_x": 1.008983,
+										"scale_y": 0.927397,
+										"x": 26.555411,
+										"y": 0.924976
+									},
+									"spin": 0,
+									"time": 180
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 141.168907,
+										"x": 196.69163,
+										"y": -421.084838
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 59
+								},
+								{
+									"bone": {
+										"angle": 140.955648,
+										"x": 104.051947,
+										"y": -28.734694
+									},
+									"id": 2,
+									"time": 180
+								}
+							],
+							"name": "Arm2",
+							"obj": 2,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"interval": 100,
+					"length": 300,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 9.999999974752427e-7,
+										"abs_pivot_x": 0.576549,
+										"abs_pivot_y": 0.18135,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 14.923450074990427,
+										"abs_y": 11.681351143279471,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 355.840682,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 133.61173913583278,
+										"abs_y": 100.06307953271224,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 97
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 197
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": 2
+									}
+								],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 300
+							}
+						]
+					},
+					"name": "Shoot2",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 257.30741,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 181.662649,
+										"y": -8.591678
+									},
+									"spin": -1,
+									"time": 197
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 68.12860899999998,
+										"x": 116.558441,
+										"y": -72.332097
+									},
+									"id": 1,
+									"time": 97
+								},
+								{
+									"bone": {
+										"angle": 156.871461,
+										"x": 42.854181,
+										"y": -66.198245
+									},
+									"id": 2,
+									"spin": -1,
+									"time": 197
+								},
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 3,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2",
+							"obj": 2,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"interval": 100,
+					"length": 350,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 220.09344,
+										"abs_pivot_x": 0.576549,
+										"abs_pivot_y": 0.18135,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 146.72264915382164,
+										"abs_y": 156.34455049668097,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "Weapon-0",
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 70.07176800000002,
+										"abs_pivot_x": 0.768349,
+										"abs_pivot_y": 0.260989,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 263.0326929329613,
+										"abs_y": 66.14148207675075,
+										"file": 1,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 0,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": "1",
+										"z_index": "1"
+									}
+								],
+								"time": 350
+							}
+						]
+					},
+					"name": "Grab",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 4.589461000000028,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 172.686596,
+										"y": 11.098192
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 218.727108,
+										"file": 3,
+										"folder": 0,
+										"pivot_x": 0.576549,
+										"pivot_y": 0.18135,
+										"x": 173.500671,
+										"y": 10.517433
+									},
+									"time": 350
+								}
+							],
+							"name": "Weapon-0",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 214.567789,
+										"file": 1,
+										"folder": 3,
+										"pivot_x": 0.768349,
+										"pivot_y": 0.260989,
+										"x": 25.615187,
+										"y": 5.214274
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 215.503979,
+										"x": 280.857142,
+										"y": -47.020408
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 141.272893,
+										"x": 156.857142,
+										"y": -112.020408
+									},
+									"id": 1,
+									"time": 350
+								}
+							],
+							"name": "Arm2",
+							"obj": 2,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 3,
+			"name": "Saber",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "Saber_Weapon-0",
+					"realname": "Weapon-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 3
+						}
+					],
+					"name": "Saber_Arm2-0",
+					"realname": "Arm2-0",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "Saber_Arm2",
+					"realname": "Arm2",
+					"type": "bone",
+					"w": 203.225
+				}
+			]
+		},
+		{
+			"animation": [
+				{
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -440.20122470336105,
+										"abs_y": 106.43825354946412,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.9999999999999,
+										"abs_pivot_x": 0.633495,
+										"abs_pivot_y": 0.07894699999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -162.59414886878952,
+										"abs_y": 108.32076887582885,
+										"file": 0,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.483643,
+										"y": -32.868259
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -36.868259
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 4,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 1,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -440.20122170336106,
+										"abs_y": 106.43825354946412,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.9999999999999,
+										"abs_pivot_x": 0.633495,
+										"abs_pivot_y": 0.07894699999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -162.59414586878952,
+										"abs_y": 108.32076887582885,
+										"file": 0,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 1000
+							}
+						]
+					},
+					"name": "Move",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -92.545744,
+										"y": 128.617288
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -40.868259
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -65.341548,
+										"y": -171.44741
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 500
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 1000
+								}
+							],
+							"name": "Arm2",
+							"obj": 4,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"interval": 100,
+					"length": 300,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -440.20122170336106,
+										"abs_y": 106.43825354946412,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.9999999999999,
+										"abs_pivot_x": 0.633495,
+										"abs_pivot_y": 0.07894699999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -162.59414586878952,
+										"abs_y": 108.32076887582885,
+										"file": 0,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 98
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 300
+							}
+						]
+					},
+					"name": "Shoot",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 342.500145,
+										"x": 10.737707,
+										"y": 77.754856
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 8.880067999999994,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 1,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2",
+							"obj": 4,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"interval": 100,
+					"length": 300,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0.35086399999994455,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -440.20122170336106,
+										"abs_y": 106.43825354946412,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 359.9999999999999,
+										"abs_pivot_x": 0.633495,
+										"abs_pivot_y": 0.07894699999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -162.59414586878952,
+										"abs_y": 108.32076887582885,
+										"file": 0,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 98
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 300
+							}
+						]
+					},
+					"name": "Shoot2",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 340.712336,
+										"x": -77.577128,
+										"y": 147.011711
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 29.59873299999998,
+										"x": 9.192901,
+										"y": -116.511047
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 98
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 2,
+									"spin": 0,
+									"time": 300
+								}
+							],
+							"name": "Arm2",
+							"obj": 4,
+							"object_type": "bone"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"interval": 100,
+					"length": 350,
+					"looping": "false",
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 41.693881999999974,
+										"abs_pivot_x": 0.332524,
+										"abs_pivot_y": 0.09298200000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -486.18898840161927,
+										"abs_y": 274.655637088824,
+										"file": 1,
+										"folder": 1,
+										"id": 0,
+										"key": 0,
+										"name": "Arm1-0",
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 334.75073,
+										"abs_pivot_x": 0.633495,
+										"abs_pivot_y": 0.07894699999999999,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -128.3552800215145,
+										"abs_y": 258.9717725285107,
+										"file": 0,
+										"folder": 3,
+										"id": 1,
+										"key": 0,
+										"name": "Arm2-0",
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								]
+							},
+							{
+								"bone_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": 2
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 0,
+										"timeline": 1
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"parent": 0,
+										"timeline": 4
+									}
+								],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"parent": 1,
+										"timeline": "0",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"parent": 2,
+										"timeline": "3",
+										"z_index": "1"
+									}
+								],
+								"time": 350
+							}
+						]
+					},
+					"name": "Grab",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 292.850258,
+										"file": 1,
+										"folder": 1,
+										"pivot_x": 0.332524,
+										"pivot_y": 0.09298200000000001,
+										"x": 12.601231,
+										"y": 2.599689
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm1-0",
+							"obj": 2
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"bone": {
+										"angle": 18.36617000000001,
+										"x": -251.521706,
+										"y": 163.276579
+									},
+									"id": 0,
+									"spin": -1
+								},
+								{
+									"bone": {
+										"angle": 337.023152,
+										"x": -85.169457,
+										"y": 124.851987
+									},
+									"id": 1,
+									"time": 350
+								}
+							],
+							"name": "Arm1",
+							"obj": 0,
+							"object_type": "bone"
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 0,
+									"spin": 0
+								},
+								{
+									"bone": {
+										"angle": 90.47745399999997,
+										"x": -318.48364,
+										"y": -32.868259
+									},
+									"id": 1,
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Base",
+							"obj": 1,
+							"object_type": "bone"
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 249.044223,
+										"file": 0,
+										"folder": 3,
+										"pivot_x": 0.633495,
+										"pivot_y": 0.07894699999999999,
+										"x": 2.447746,
+										"y": 2.418
+									},
+									"spin": 0,
+									"time": 350
+								}
+							],
+							"name": "Arm2-0",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"bone": {
+										"angle": 355.229053,
+										"x": -230.320388,
+										"y": -190.443664
+									},
+									"id": 0
+								},
+								{
+									"bone": {
+										"angle": 20.47832299999999,
+										"x": -78.19604,
+										"y": -158.376877
+									},
+									"id": 1,
+									"spin": -1,
+									"time": 350
+								}
+							],
+							"name": "Arm2",
+							"obj": 4,
+							"object_type": "bone"
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 4,
+			"name": "Fists",
+			"obj_info": [
+				{
+					"h": 10,
+					"name": "Fists_Arm1",
+					"realname": "Arm1",
+					"type": "bone",
+					"w": 210.257
+				},
+				{
+					"h": 10,
+					"name": "Fists_Base",
+					"realname": "Base",
+					"type": "bone",
+					"w": 68.9679
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 1
+						}
+					],
+					"name": "Fists_Arm1-0",
+					"realname": "Arm1-0",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 3
+						}
+					],
+					"name": "Fists_Arm2-0",
+					"realname": "Arm2-0",
+					"type": "sprite"
+				},
+				{
+					"h": 10,
+					"name": "Fists_Arm2",
+					"realname": "Arm2",
+					"type": "bone",
+					"w": 201.316
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 280,
+					"id": 0,
+					"name": "Weapon/Weapon-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 263
+				},
+				{
+					"height": 233,
+					"id": 1,
+					"name": "Weapon/Weapon-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 166
+				},
+				{
+					"height": 299,
+					"id": 2,
+					"name": "Weapon/Weapon-2.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 353
+				},
+				{
+					"height": 471,
+					"id": 3,
+					"name": "Weapon/Weapon-3.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 221
+				},
+				{
+					"height": 280,
+					"id": 4,
+					"name": "Weapon/Weapon-4.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 263
+				}
+			],
+			"id": 0,
+			"name": "Weapon"
+		},
+		{
+			"file": [
+				{
+					"height": 284,
+					"id": 0,
+					"name": "Arm1/Arm1-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 205
+				},
+				{
+					"height": 284,
+					"id": 1,
+					"name": "Arm1/Arm1-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 205
+				}
+			],
+			"id": 1,
+			"name": "Arm1"
+		},
+		{
+			"file": [
+				{
+					"height": 104,
+					"id": 0,
+					"name": "Arm1Back/Arm1Back-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 100
+				}
+			],
+			"id": 2,
+			"name": "Arm1Back"
+		},
+		{
+			"file": [
+				{
+					"height": 284,
+					"id": 0,
+					"name": "Arm2/Arm2-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 205
+				},
+				{
+					"height": 181,
+					"id": 1,
+					"name": "Arm2/Arm2-1.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 217
+				}
+			],
+			"id": 3,
+			"name": "Arm2"
+		},
+		{
+			"file": [
+				{
+					"height": 280,
+					"id": 0,
+					"name": "WeaponExtra/WeaponExtra-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 263
+				}
+			],
+			"id": 4,
+			"name": "WeaponExtra"
+		},
+		{
+			"file": [
+				{
+					"height": 29,
+					"id": 0,
+					"name": "Shell/Shell-0.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 15
+				}
+			],
+			"id": 5,
+			"name": "Shell"
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r11",
+	"scon_version": "1.0"
+}
